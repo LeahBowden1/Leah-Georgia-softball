@@ -161,3 +161,47 @@ header h1 {
     line-height: 1.8;
     box-sizing: border-box;
 }
+.booking-btn {
+    display: inline-block;
+    background-color: #74458c;
+    color: white;   
+    padding: 14px 28px;
+    border-radius: 12px;
+    text-decoration: none;  
+    font-weight: bold;
+    margin: 15px 0 25px;
+    transition: background-color 0.3s;
+}
+.booking-options{
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 25px;
+    flex-wrap: wrap;
+    margin: 30px auto;
+}
+.booking-card {
+    background-color: #f7e7f2;
+    padding: 25px;
+    border-radius: 12px;
+    text-align: center;
+    width: 280px;
+    box-sizing: border-box;
+}
+.booking-card .booking-btn {
+    display: inline-block;
+    background-color: #74458c;
+    color: white;
+    padding: 14px 28px;
+    border-radius: 12px;
+    text-decoration: none;
+    font-weight: bold;
+    border: none;
+    font-size: 16px;
+    margin-top: 10px;
+}
+.booking-card .booking-btn:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+   
